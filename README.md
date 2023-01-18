@@ -1,5 +1,15 @@
 # CIA-1
 
+Prim's and Kruskal's algorithms are both used to find the minimum spanning tree (MST) of a graph.
+
+Prim's algorithm starts with an arbitrary vertex and grows the MST by adding the vertex with the lowest weight edge to the MST and repeating the process until all vertices are included in the MST.
+
+Kruskal's algorithm starts with an empty MST and grows it by adding edges with the lowest weight that do not form a cycle, until all vertices are included in the MST.
+
+Both algorithms are greedy algorithms, meaning they make the locally optimal choice at each step with the hope of finding a global optimum.
+
+Prim's method is generally faster for dense graph, while Kruskal's method is faster for sparse graphs.
+
 Prims Method 
 
 1.
