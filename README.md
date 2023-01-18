@@ -53,7 +53,18 @@ NOTE : Prims Doesnt work for Directed Graphs only bellman Ford is applicable for
 
 
 
-**********************************
+***********************************DIJKSTRA METHOD*********************************
+3. Dijkstra's algorithm is designed for use on graphs with non-negative edge weights, and it finds the shortest path from a single source vertex to all other vertices in the graph. However, it doesn't work on directed graph as it's based on the assumption that the shortest path to a vertex can only be reached by traversing edges with non-negative weights and that the shortest path to a vertex can be determined by relaxing edges in a specific order. This assumption is not always true for directed graphs, where edges can have negative weights, and the shortest path to a vertex may not be determined by relaxing edges in a specific order.
+
+![Screenshot_20230118_055257](https://user-images.githubusercontent.com/55921648/213095498-90f71c84-7eba-4aa8-a9a0-b0a556c7ba54.png)
+
+
+
+
+
+
+NOTE : Since Djk doesnt work for negative Edge Widgets it doesnot satisy the Graph so Bellman Ford can only be used
+
 
 
 
