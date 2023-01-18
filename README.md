@@ -1,5 +1,14 @@
 # CIA-1
 
+![Screenshot_20230118_050832](https://user-images.githubusercontent.com/55921648/213089701-e23ea087-32ea-430b-bcc5-3e57478ec984.png)
+
+
+
+
+
+
+
+*******************************PRIMS METHOD**********************************
 Prim's and Kruskal's algorithms are both used to find the minimum spanning tree (MST) of a graph.
 
 Prim's algorithm starts with an arbitrary vertex and grows the MST by adding the vertex with the lowest weight edge to the MST and repeating the process until all vertices are included in the MST.
@@ -13,9 +22,7 @@ Prim's method is generally faster for dense graph, while Kruskal's method is fas
 Prims Method 
 
 1.
-     ![Screenshot_20230118_050832](https://user-images.githubusercontent.com/55921648/213089701-e23ea087-32ea-430b-bcc5-3e57478ec984.png)
-
-According to this graph, this is a directed graph.
+     According to this graph, this is a directed graph.
 According to the concept, the prims graph wont work on Directed Weighted Graph but in this scenario prims method works because in this graph while using prims method after E node the nodes doesnt go to D node which omits the -5 which satisfies the Prims Method 
 
 
@@ -25,6 +32,31 @@ According to the concept, the prims graph wont work on Directed Weighted Graph b
 
 Note :
        Prims only works for this scneario graph and its not applicable for any other Generic Directed Weighted Graph
+       
+       
+       
+  
+  
+*********************************KRUSKAL METHOD*******************************************
+2.Kruskal's algorithm is a well-known method for finding the minimum spanning tree in an undirected, weighted graph. The algorithm works by sorting the edges in the graph by weight and then iteratively adding edges to the minimum spanning tree while maintaining the property that the tree remains a valid connected graph.
+
+However, Kruskal's algorithm is not applicable to directed weighted graphs because it relies on the property that the graph is undirected. In a directed graph, the edges have a direction, and the minimum spanning tree would be different from an undirected graph. Additionally, Kruskal's algorithm does not take into account the direction of the edges when building the minimum spanning tree, which is essential for directed graphs.
+
+A different algorithm, such as Dijkstra's algorithm or Bellman-Ford algorithm, would be needed to find the shortest path in a directed weighted graph.
+
+
+Since this graph has negative node and its a directed graph kruskal doesnt satify the Grpah
+
+![Screenshot_20230118_053829](https://user-images.githubusercontent.com/55921648/213094052-2380f4df-e2bf-4ccb-9e44-b1326ef31f66.png)
+
+NOTE : Prims Doesnt work for Directed Graphs only bellman Ford is applicable for Directed Graph
+
+
+
+**********************************
+
+
+
        
        
       
